@@ -1,5 +1,4 @@
 #!/bin/sh
-aptitude -y update
 aptitude -y install  pptpd
 aptitude -y install  squid
 cp -r ./etc /etc
